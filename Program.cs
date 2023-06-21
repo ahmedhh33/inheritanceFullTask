@@ -23,6 +23,11 @@
             rectangle1.GetPerimeter();
 
             Console.WriteLine("******************** Task3 ***************");
+
+            Manager manager1 = new Manager("Salim","operation",1200,4);
+            manager1.CalculatePay();
+            Secretary secretary1 = new Secretary("Nasser","sequrity",670,40);
+            secretary1.CalculatePay();
         }
     }
 }
