@@ -28,6 +28,16 @@
             manager1.CalculatePay();
             Secretary secretary1 = new Secretary("Nasser","sequrity",670,40);
             secretary1.CalculatePay();
+
+            Console.WriteLine("******************** Task4 ***************");
+
+            Car car1 = new Car("Toyota","Jaban","Camry",2008,4);
+            car1.GetInfo();
+            Console.WriteLine("$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+            Truck truck1 = new Truck("Man", "Germany", "F350", 2022, 10);
+            truck1.GetInfo();
+
+            Console.WriteLine("******************** Task5 ***************");
         }
     }
 }
