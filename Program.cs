@@ -38,6 +38,14 @@
             truck1.GetInfo();
 
             Console.WriteLine("******************** Task5 ***************");
+
+            Circle2 circle2 = new Circle2("circle2","Red",4);
+            Console.WriteLine(circle2.ToString());//it print the object strings this is first way
+            Console.WriteLine(circle2);//this is a second way
+            Console.WriteLine("%%%%%%%%%%%%%%%%%%%");
+            Rectangle2 rectangle2 = new Rectangle2("Rectangle 2", "Blu", 2, 3);
+            Console.WriteLine(rectangle2.ToString());
+            Console.WriteLine(rectangle2);
         }
     }
 }
